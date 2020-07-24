@@ -14,7 +14,7 @@ CUDA_VISIBLE_DEVICES=0 python high_germline_scanmap.py -c<config string> -i4000 
 
 The code `high_germline_scanmap.py` is a wrapper code that takes in a pickle file consisting of subject-by-gene (or subject-by-pathway) matrix, reads in confounding variables corresponding to the subjects, calls the `ScanMap` class in `ScanMap.py` to perform supervised confounding aware NMF for polygenic risk modeling.
 
-The meanings of the parameters are defined in `high_germline_scanmap.py`. This code by defaults uses visible GPU.
+The meanings of the parameters are defined in `high_germline_scanmap.py`. This code by default uses visible GPU.
 
 ### Citation
 ```
